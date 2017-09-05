@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
-body{
-	background-color: #f8f8f8
+body {
+	background-color: #abeafa;
 }
 
 header a {
@@ -43,17 +43,20 @@ h2{
 
 input[type=text]{
 	width: 200px;
-	height: 20px
+	height: 20px;
+	background-color: #abeafa;
 }
 input[type=email]{
 	width: 200px;
-	height: 20px
+	height: 20px;
+	background-color: #abeafa;
 }
 
 input[placeholder="Сообщение"]{
 	width: 400px;
 	height: 200px;
-	word-wrap:break-word
+	word-wrap:break-word;
+	background-color: #abeafa;
 }
 
 input{
@@ -68,6 +71,10 @@ header li{
 	display: inline;
 	position:static;
 	margin-left: 100px;
+	
+}
+a{
+	text-decoration:none;
 }
 
 .box{
@@ -81,3 +88,31 @@ div .first{
 	width: 500px;
 	align-content: center
 }
+
+header ul li:hover{
+color:aliceblue;	
+}
+.logo{
+margin: auto
+}
+
+input[type="email"]:focus{
+	color: whitesmoke;
+	background-color:black;
+}
+input[type="text"]{
+	text-transform:capitalize
+}
+
+img[class="image_c"]{
+	border: 2px solid #6E6C6C
+}
+img[class="image_c"]:hover{
+	border: 2px solid rgba(0, 0, 0, 0);
+	
+}
+p[class="full"]:first-letter {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 150%; 
+    color: red; 
+   }
